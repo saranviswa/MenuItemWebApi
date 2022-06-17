@@ -5,7 +5,7 @@ metadata:
   labels:
     app: MenuItemWebApi
 spec:
-  replicas: 1
+  replicas: 1,
   selector:
     matchLabels:
         app: MenuItemWebApi
@@ -15,7 +15,7 @@ spec:
             app: MenuItemWebApi
     spec: 
         containers: 
-        - name: cloudpracticecheck
+        - name: menuitemwebapi
           image: cloudpracticecheck.azurecr.io/cloudpracticecheckmenuitem:latest
           ports: 
           - containerPort: 8080
