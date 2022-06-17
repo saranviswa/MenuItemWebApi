@@ -15,17 +15,17 @@ spec:
             app: MenuItemWebApi
     spec: 
         containers: 
-        - name: cloudpracticecheck
+        - name: cloudpracticecheckmenuitem
           image: cloudpracticecheck.azurecr.io/cloudpracticecheckmenuitem:latest
           ports: 
           - containerPort: 8080
         imagePullSecrets:
-        - name: menuitemsvcsecret
+        - name: webapisvcsecret
 ---
 apiVersion: v1
 kind: Service
 metadata: 
-    name: menuitemwebapisvc
+    name: menuitemwebapiservice
 spec: 
     type: LoadBalancer
     ports: 
