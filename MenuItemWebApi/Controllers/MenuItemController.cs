@@ -41,20 +41,20 @@ namespace MenuItemWebApi.Controllers
 
 
         [HttpGet]
-        public IEnumerable<MenuItem> GetMenuItem()
+        public IActionResult GetMenuItem()
         {
-            return menuItems;
+            return Ok(menuItems);
         }
 
         [HttpGet("{id}")]
-        public MenuItem GetMenuItemById(int id)
+        public IActionResult GetMenuItemById(int id)
         {
             foreach (var item in menuItems)
             {
                 if (item.Id == id)
-                    return item;
+                    return Ok(item);
             }
-            return null;
+            return BadRequest();
         }
 
 
