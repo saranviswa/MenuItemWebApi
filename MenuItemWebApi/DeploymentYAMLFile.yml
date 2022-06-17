@@ -5,7 +5,7 @@ metadata:
   labels:
     app: MenuItemWebApi
 spec:
-  replicas: 1,
+  replicas: 1
   selector:
     matchLabels:
         app: MenuItemWebApi
