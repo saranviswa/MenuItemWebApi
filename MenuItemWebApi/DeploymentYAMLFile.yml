@@ -15,7 +15,7 @@ spec:
             app: MenuItemWebApi
     spec: 
         containers: 
-        - name: menuitemwebapi
+        - name: cloudpracticecheckmenuitem
           image: cloudpracticecheck.azurecr.io/cloudpracticecheckmenuitem:latest
           ports: 
           - containerPort: 8080
