@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cognizant_internship\\EnhancementProject\\MenuItemWebApi\\MenuItemWebApi\\MenuItemWebApi.csproj": {}
+    "D:\\Cognizant_internship\\EnhancementProject\\CloudPracticeCheck\\MenuItemWebApi\\MenuItemWebApi\\MenuItemWebApi.csproj": {}
   },
   "projects": {
-    "D:\\Cognizant_internship\\EnhancementProject\\MenuItemWebApi\\MenuItemWebApi\\MenuItemWebApi.csproj": {
+    "D:\\Cognizant_internship\\EnhancementProject\\CloudPracticeCheck\\MenuItemWebApi\\MenuItemWebApi\\MenuItemWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cognizant_internship\\EnhancementProject\\MenuItemWebApi\\MenuItemWebApi\\MenuItemWebApi.csproj",
+        "projectUniqueName": "D:\\Cognizant_internship\\EnhancementProject\\CloudPracticeCheck\\MenuItemWebApi\\MenuItemWebApi\\MenuItemWebApi.csproj",
         "projectName": "MenuItemWebApi",
-        "projectPath": "D:\\Cognizant_internship\\EnhancementProject\\MenuItemWebApi\\MenuItemWebApi\\MenuItemWebApi.csproj",
+        "projectPath": "D:\\Cognizant_internship\\EnhancementProject\\CloudPracticeCheck\\MenuItemWebApi\\MenuItemWebApi\\MenuItemWebApi.csproj",
         "packagesPath": "C:\\Users\\bsara\\.nuget\\packages\\",
-        "outputPath": "D:\\Cognizant_internship\\EnhancementProject\\MenuItemWebApi\\MenuItemWebApi\\obj\\",
+        "outputPath": "D:\\Cognizant_internship\\EnhancementProject\\CloudPracticeCheck\\MenuItemWebApi\\MenuItemWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bsara\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,7 +26,7 @@
         },
         "frameworks": {
           "net6.0": {
-            "targetAlias": "net6.0",
+            "targetAlias": "netcoreapp6.0",
             "projectReferences": {}
           }
         },
@@ -38,15 +38,19 @@
       },
       "frameworks": {
         "net6.0": {
-          "targetAlias": "net6.0",
+          "targetAlias": "netcoreapp6.0",
           "dependencies": {
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.14.0, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "NHibernate": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[5.3.12, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
